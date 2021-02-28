@@ -12,6 +12,6 @@ class Coche extends Model
         'modelo',
         'anyo',
         'color',
-        'fechaMatricula',
+        'fechaMatriculacion',
       ];
 }

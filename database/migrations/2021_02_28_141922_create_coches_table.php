@@ -19,7 +19,7 @@ class CreateCochesTable extends Migration
             $table->text('modelo');
             $table->integer('anyo');
             $table->text('color');
-            $table->date('fechaMatriculacion');
+            $table->timestamp('fechaMatriculacion');
             $table->timestamps();
         });
     }
