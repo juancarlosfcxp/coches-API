@@ -15,6 +15,11 @@ class CreateCochesTable extends Migration
     {
         Schema::create('coches', function (Blueprint $table) {
             $table->id();
+            $table->text('marca');
+            $table->text('modelo');
+            $table->integer('anyo');
+            $table->text('color');
+            $table->date('fechaMatriculacion');
             $table->timestamps();
         });
     }

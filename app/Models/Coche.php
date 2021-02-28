@@ -10,7 +10,7 @@ class Coche extends Model
     protected $fillable = [
         'marca',
         'modelo',
-        'año',
+        'anyo',
         'color',
         'fechaMatricula',
       ];
